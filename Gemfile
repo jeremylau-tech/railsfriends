@@ -6,7 +6,7 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3"
 
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
@@ -55,13 +55,12 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem "web-console"
+  gem "web-console", ">= 3.3.0"
   gem "sqlite3", "~> 1.4"
 end
 
 group :production do 
-  gem 'pg', '~> 1.2', '>=1.2.3'
-  
+  gem "pg", "~> 1.3", ">= 1.3.5"
 end
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
@@ -69,7 +68,6 @@ end
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
